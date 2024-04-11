@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Ejercicio Técnico 3 - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Implementación del listado de los ejercicios anteriores con React en el cliente y Javascript en el servidor
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+El objetivo de este ejercicio técnico es implementar un listado de elementos utilizando JavaScript tanto en el servidor (NodeJS) como en el cliente (en este caso React). Se explorará un enfoque donde se obtienen datos del servidor utilizando Express y se muestran en el cliente utilizando React.
 
-### `npm start`
+## Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Se desea desarrollar un listado de elementos para una aplicación web que permita a los usuarios visualizar y manipular datos. Se implementará una solución donde se obtienen los datos del servidor utilizando Express y se muestran en el cliente utilizando React. Además, se crearán al menos dos componentes de React para modularizar la interfaz de usuario y facilitar el mantenimiento del código.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requerimientos Técnicos
 
-### `npm test`
+1. Implementar un servidor utilizando Express que proporcione datos para el listado.
+2. Utilizar React en el cliente para mostrar los datos obtenidos del servidor.
+3. Crear al menos dos componentes de React para modularizar la interfaz de usuario.
+4. La aplicación debe incluir una interfaz de usuario clara y funcional que permita al usuario ver los elementos del listado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Criterios de Evaluación
 
-### `npm run build`
+- Correcta implementación de JavaScript en el servidor utilizando Express para proporcionar datos.
+- Uso efectivo de React en el cliente para mostrar los datos obtenidos del servidor.
+- Creación adecuada de al menos dos componentes de React para modularizar la interfaz de usuario.
+- Presentación clara y ordenada de los elementos del listado en la interfaz de usuario.
+- Cumplimiento de los requisitos técnicos especificados en el enunciado.
+- Creatividad en la presentación visual y la interactividad de la interfaz de usuario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Entregables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Crear un [nuevo repositorio](https://github.com/organizations/iaw-2024/repositories/new) privado utilizando como template este repositorio (`iaw-2024/ejercicio-tecnico-3-react`). El nombre del repositorio debe ser `<usuario-github>-3-react` y debe estar dentro de la organización `iaw-2024`.
+2. Crear una rama o branch denominado `entrega` y realizar el ejercicio en esa rama o branch.
+3. Crear un Pull Request del branch `entrega` al branch `main` con un link en la descripción del Pull Request a la página web pública.
+4. El branch `entrega` debe contener el ejercicio implementado utilizando React en el cliente y Express en el servidor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notas Adicionales
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Se sugiere utilizar las funcionalidades proporcionadas por Express y React para manejar las peticiones HTTP y la manipulación del DOM de manera efectiva y eficiente.
+- Se recomienda probar la implementación en diferentes navegadores y dispositivos para asegurar la compatibilidad y el correcto funcionamiento de la aplicación.
