@@ -1,14 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 export const SegundoComponente = () => {
+
+  const handleAgregarAlimento = () => {
+    const nuevoAlimento = prompt('Ingrese el nombre del nuevo alimento:');
+    if (nuevoAlimento) {
+      alert(`Alimento agregado! : ${nuevoAlimento}`);
+    }
+  };
+
   return (
     <div>
-        <h2>Listado</h2>
-        <ul>
-            <li>Matias</li>
-            <li>Tomi</li>
-            <li>Qsy</li>
-        </ul>
+      <h2>Listado</h2>
+      <button onClick={handleAgregarAlimento}>Agregar alimento</button>
     </div>
-  )
-}
+  );
+};
